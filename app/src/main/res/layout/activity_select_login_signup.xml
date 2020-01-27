@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SelectLoginSignupActivity"
+    android:background="@drawable/gradient_background"
     android:orientation="vertical">
 
     <EditText
@@ -13,6 +14,7 @@
         android:textAlignment="center"
         android:textSize="50dp"
         android:fontFamily="sans-serif-condensed"
+        android:textColor = "#8DE4ECEC"
         android:text="SoundPeeps" />
     <Button
         android:id="@+id/login"

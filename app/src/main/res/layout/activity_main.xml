@@ -17,13 +17,15 @@
             android:onClick="logoutUser"
             android:text="log out"
             tools:ignore="MissingConstraints" />
+
         <Button
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:onClick="goToMatches"
             android:text="Matches"
             tools:ignore="MissingConstraints" />
+
         <Button
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -33,12 +35,6 @@
             tools:ignore="MissingConstraints" />
     </LinearLayout>
 
-    <com.lorentzos.flingswipe.SwipeFlingAdapterView
-        android:id="@+id/frame"
-        android:background="@android:color/white"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:rotation_degrees="15.5"
-        tools:context=".MyActivity" />
+
 
 </LinearLayout>

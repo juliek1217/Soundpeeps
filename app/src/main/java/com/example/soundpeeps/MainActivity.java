@@ -1,15 +1,15 @@
 package com.example.soundpeeps;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.soundpeeps.Cards.arrayAdapter;
 import com.example.soundpeeps.Cards.cards;
@@ -58,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
         arrayAdapter = new arrayAdapter(this, R.layout.item, rowItems);
 
 
-        SwipeFlingAdapterView flingContainer = findViewById(R.id.frame);
+        //SwipeFlingAdapterView flingContainer = findViewById(R.id.frame);
+        SwipeFlingAdapterView flingContainer = findViewById(R.id.cardView);
 
         flingContainer.setAdapter(arrayAdapter);
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
@@ -195,14 +196,15 @@ public class MainActivity extends AppCompatActivity {
         return;
     }
 
-    public void goToSettings(View view) {
-        Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+
+    public void goToMatches(View view) {
+        Intent intent = new Intent(MainActivity.this, MatchesActivity.class);
         startActivity(intent);
         return;
     }
 
-    public void goToMatches(View view) {
-        Intent intent = new Intent(MainActivity.this, MatchesActivity.class);
+    public void goToSettings(View view) {
+        Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
         startActivity(intent);
         return;
     }

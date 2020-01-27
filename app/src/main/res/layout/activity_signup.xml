@@ -5,13 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/gradient_background"
     tools:context="com.example.soundpeeps.SignupActivity">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/name"
-        android:hint="name" />
+        android:hint="name"
+        android:textColorHint="@color/colorHint"/>
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -31,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/email"
+        android:textColorHint="@color/colorHint"
         android:hint="email" />
 
     <EditText
