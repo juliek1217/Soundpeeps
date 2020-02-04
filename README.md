@@ -7,7 +7,7 @@ There are only four features so far. I will add more features after my final exa
 
 1. Add Posts
 
-![Add posts](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/post1.PNG)
+![Add_posts](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/posts1.PNG)
 
 2. Comment
 
