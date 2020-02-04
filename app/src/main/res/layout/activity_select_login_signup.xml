@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SelectLoginSignupActivity"
     android:background="@drawable/gradient_background"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Activities.SelectLoginSignupActivity">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="50dp"
         android:fontFamily="sans-serif-condensed"
-        android:textColor = "#8DE4ECEC"
-        android:text="SoundPeeps" />
+        android:text="SoundPeeps"
+        android:textAlignment="center"
+        android:textColor="#8DE4ECEC"
+        android:textSize="50dp" />
+
     <Button
         android:id="@+id/login"
         android:layout_width="match_parent"
@@ -23,9 +24,9 @@
         android:text="log in" />
 
     <Button
+        android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign up"
-        android:id="@+id/signup"/>
+        android:text="Sign up" />
 
 </LinearLayout>

@@ -1,20 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Fragments.ProfileFragment"
+android:orientation="vertical"
+android:padding="20sp"
+android:background="@drawable/gradient_background">
 
-    <TextView
-        android:id="@+id/text_profile"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textColor="@color/colorTextWhite1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+<ImageView
+    android:layout_width="100sp"
+    android:layout_height="100sp"
+    android:id="@+id/profileImage"
+    android:src="@mipmap/ic_launcher"
+    android:layout_marginBottom="20sp"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/name"
+    android:background="@null"
+    android:textColorHint="@color/colorHint"
+    android:hint="Name"
+    android:layout_marginBottom="20sp" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/phone"
+    android:background="@null"
+    android:textColorHint="@color/colorHint"
+    android:hint="Phone"
+    android:layout_marginBottom="20sp"
+    android:inputType="phone" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/confirm"
+    android:text="confirm" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/logout"
+    android:text="Logout" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/back"
+    android:text="back" />
+
+</LinearLayout>
