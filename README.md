@@ -3,7 +3,7 @@
 ## Android app project
 
 The features and backend will later be extended to fit the iOS, and a web app.
-There are only four features so far. I will add more features after my final exams ;)
+There are only four features so far. I will add more features such as chat, likes, search and sorting after my final exams ;)
 
 1. Add Posts
 
