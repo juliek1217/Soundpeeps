@@ -6,11 +6,11 @@ The features and backend will later be extended to fit the Apple iPhone, and a w
 There are only four features so far. I will add more features after my final exams ;)
 
 1. Add Posts
-![alt text](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/add post.PNG)
+![alt text](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/post1.PNG)
 2. Comment
-![alt text](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/add post.PNG)
+![alt text](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/comment.PNG)
 3. Signup / Login
-![alt text](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/add post.PNG)
+![alt text](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/first_page.PNG)
 4. Profile
 ![alt text](https://raw.githubusercontent.com/juliek1217/Soundpeeps/master/readmePics/Profile.PNG)
 
