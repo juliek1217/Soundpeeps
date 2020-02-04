@@ -1,5 +1,5 @@
 # Soundpeeps Version 1.0.0
-## Soundpeeps is a social networking app. Use Soundpeeps to find someone to go to upcoming concert or music festival together.
+## Soundpeeps is a social networking app. Use Soundpeeps to find someone to go to upcoming concerts or music festival together.
 ## Android app project
 
 The features and backend will later be extended to fit the iOS, and a web app.
